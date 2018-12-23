@@ -1,0 +1,36 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "\"This app allows users to add a burger that they'd like to eat.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phungdpham/eat-da-burger.git"
+  },
+  "keywords": [
+    "burger",
+    "handlebars",
+    "orm",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "phung pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phungdpham/eat-da-burger/issues"
+  },
+  "homepage": "https://github.com/phungdpham/eat-da-burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
+}
